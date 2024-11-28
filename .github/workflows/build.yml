@@ -24,7 +24,7 @@ jobs:
         ./build.sh -t esp32,esp32s2,esp32c3,esp32s3 -b build
 
     - name: Upload artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: esp32-arduino-libs
         path: esp32-arduino-libs
